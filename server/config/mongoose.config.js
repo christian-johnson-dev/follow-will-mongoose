@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 mongoose
-  .connect("mongodb://127.0.0.1:27017/tv_show_db", {
+  .connect("mongodb://127.0.0.1:27017/TV_Show_DB", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
